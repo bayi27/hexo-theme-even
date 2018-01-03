@@ -1,5 +1,7 @@
 # hexo-theme-even
-A super simple theme for Hexo (在作者基础上增加了一些小功能)
+A super simple theme for Hexo 
+
+(作者没有启用search功能,在作者基础上增加了包括站内搜索的一些小功能)
 
 [![GitHub stars](https://img.shields.io/github/stars/ahonn/hexo-theme-even.svg)](https://github.com/ahonn/hexo-theme-even/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ahonn/hexo-theme-even.svg)](https://github.com/ahonn/hexo-theme-even/network)
@@ -16,12 +18,16 @@ A super simple theme for Hexo (在作者基础上增加了一些小功能)
 - 支持 Fancybox
 - 版权信息，自定义许可协议
 - 文章打赏，添加二维码
+
+![even-screenshots](http://ouv0frko5.bkt.clouddn.com/eerqv.jpg)
+
+## 加了一点点
 - 增加来必力评论插件
 - 增加站内搜索
 - 博文可设置密码
+- 新加了几个社交图标
 
-## Screenshots
-![even-screenshots](http://ouv0frko5.bkt.clouddn.com/eerqv.jpg)
+![even-screenshots](https://s1.ax1x.com/2018/01/03/p9HFqU.png)
 
 ## Installation
 ```

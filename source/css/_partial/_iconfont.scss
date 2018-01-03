@@ -3,12 +3,12 @@
 // ==============================
 
 @font-face {
-  font-family: 'iconfont';  /* project id 96542 */
-  src: url('//at.alicdn.com/t/font_96542_ixz9jngnf1sb57b9.eot');
-  src: url('//at.alicdn.com/t/font_96542_ixz9jngnf1sb57b9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_96542_ixz9jngnf1sb57b9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_96542_ixz9jngnf1sb57b9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_96542_ixz9jngnf1sb57b9.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 520823 */
+  src: url('//at.alicdn.com/t/font_520823_0lkon52l0vz5xw29.eot');
+  src: url('//at.alicdn.com/t/font_520823_0lkon52l0vz5xw29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_520823_0lkon52l0vz5xw29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_520823_0lkon52l0vz5xw29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_520823_0lkon52l0vz5xw29.svg#iconfont') format('svg');
 }
 
 .iconfont {
@@ -20,40 +20,20 @@
   cursor: pointer;
 }
 
-.icon-instagram:before {
-  font-size: .95em;
-  content: "\e611";
-  position:: relative;
-  top: -1px;
-}
-.icon-douban:before {
-  content: "\e610";
-}
-.icon-tumblr:before {
-  content: "\e69f";
-  font-size: .85em;
-  position: relative;
-  top: -4px;
-}
-.icon-linkedin:before {
-  content: "\e60d";
-  position: relative;
-  top: -4px;
-}
 .icon-twitter:before {
-  content: "\e600";
+  content: "\e638";
 }
 .icon-weibo:before {
-  content: "\e602";
+  content: "\e71d";
 }
 .icon-stack-overflow:before {
-  content: "\e603";
+  content: "\ec1d";
   font-size: .85em;
   position: relative;
   top: -4px;
 }
 .icon-email:before {
-  content: "\e605";
+  content: "\e635";
   position: relative;
   top: -2px;
 }
@@ -64,39 +44,53 @@
   top: -2px;
 }
 .icon-github:before {
-  content: "\e606";
+  content: "\e646";
   position: relative;
   top: -3px;
 }
 .icon-rss:before {
-  content: "\e604";
+  content: "\e662";
 }
 .icon-google:before {
-  content: "\e609";
+  content: "\e69b";
 }
 .icon-zhihu:before {
-  content: "\e607";
+  content: "\e600";
   font-size: .9em;
   position: relative;
   top: -2px;
 }
 .icon-pocket:before {
-  content: "\e856";
+  content: "\e85c";
+}
+
+.icon-segmentfault:before {
+  content: "\e610";
+  font-size: .85em;
+  position: relative;
+  top: -4px;
+}
+
+.icon-V2EX:before {
+  content: "\e63b";
+  font-size: .85em;
+  position: relative;
+  top: -4px;
 }
 
 /* Generic Icon */
 .icon-heart:before {
-  content: "\e608";
+  content: "\e603";
 }
 .icon-right:before {
-  content: "\e60a";
+  content: "\e6e0";
 }
 .icon-left:before {
-  content: "\e60b";
+  content: "\e602";
 }
 .icon-up:before {
-  content: "\e60c";
+  content: "\e609";
 }
 .icon-close:before {
-  content: "\e60f";
+  content: "\e637";
 }
