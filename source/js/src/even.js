@@ -254,17 +254,17 @@ var searchFunc = function(path, search_id, content_id) {
                     // 返回搜索结果
                     if (isMatch) {
                     //结果标签
-                        str += "<a href='"+ data_url +"' class='search-result-title' target='_blank'>"+ data_title +"</a>";
+                        str += "<li class='search-result-item'><a href='"+ data_url +"' class='search-result-title' target='_blank'>"+ data_title +"</a>";
                         var content = data.content.trim().replace(/<[^>]+>/g,"");
                         if (first_occur >= 0) {
                             // 拿出含有搜索字的部分
-                            var start = first_occur - 6;
-                            var end = first_occur + 6;
+                            var start = first_occur - 5;
+                            var end = first_occur + 5;
                             if(start < 0){
                                 start = 0;
                             }
                             if(start == 0){
-                                end = 10;
+                                end = 50;
                             }
                             if(end > content.length){
                                 end = content.length;
@@ -273,9 +273,9 @@ var searchFunc = function(path, search_id, content_id) {
                             // 列出搜索关键字，定义class加高亮
                             keywords.forEach(function(keyword){
                                 var regS = new RegExp(keyword, "gi");
-                                match_content = match_content.replace(regS, "<em class=\"search-keyword\">"+keyword+"</em>");
+                                match_content = match_content.replace(regS, "<span class=\"search-keyword\">"+keyword+"</span>");
                             })
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                            str += "<p class=\"search-result\">" + match_content +"...</p></li>"
                         }
                     }
                 })

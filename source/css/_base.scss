@@ -96,13 +96,32 @@ a {
 	width: 100%;
 	height: 100%;
 }
+li.search-result-item {
+  margin: 2em auto;
+  border-bottom: 2px solid #707070;
+}
+li.search-result-item:hover {
+  color: #838B8B
+}
 ul.search-result-list {
+  list-style-type:none;
+  padding: 0px;
   padding-left: 10px;
 }
 a.search-result-title {
-  font-weight: bold;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
 }
-em.search-keyword {
-  border-bottom: 1px dashed red;
+span.search-keyword {
+  color: #f58e90;
+  border-bottom: 1px dashed #f58e90;
   font-weight: bold;
+  font-size: 1.3em;
+}
+p.search-result {
+  margin: 0.4em auto;
+  max-height: 13em;
+  overflow: hidden;
+  text-align: justify;
 }

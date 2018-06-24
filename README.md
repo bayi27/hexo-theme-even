@@ -47,7 +47,13 @@ theme: even
 更多主题设置，查看 [Document](https://github.com/ahonn/hexo-theme-even/wiki)
 
 ## 站内搜索
- 
+
+安装插件
+
+```bash
+npm install --save hexo-generator-search
+```
+
 安装主题后,在source新建search文件,并添加index.html,其内容如下
  
 ```
