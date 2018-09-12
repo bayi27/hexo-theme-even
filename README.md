@@ -73,7 +73,7 @@ comments: false
  
  之后在_config.yml启用站内搜索,至于各种样式可以根据下面流程设置自己喜欢的
  
- [具体实现介绍](https://blog.flywinky.top/2017/07/20/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/)
+ [具体实现介绍](https://bayi87.github.io/2017/07/20/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/)
  
 ## 博文加密
  
